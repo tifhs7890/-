@@ -4,7 +4,6 @@ import json
 import os
 
 # ================== 설정 ==================
-BOT_TOKEN = os.getenv("TOKEN")
 ADMIN_CHANNEL_ID = 1471166240780324958
 PASS_ROLE_ID = 1364842124054368297
 DATA_FILE = "data.json"
@@ -188,3 +187,4 @@ async def on_ready():
 
 
 bot.run(os.environ["BOT_TOKEN"])
+
